@@ -5,7 +5,7 @@
       <div class="container" style="height: 2000px">
         <div class="container">
           <img
-            src="./assets/COPEY_BANNER.PNG"
+            :src="imgUrl"
             class="img-fluid pt-3"
             style="width: inherit"
             alt="banner"
@@ -31,6 +31,7 @@
 
 <script>
 import { ref } from "vue";
+import bannerImg from "./assets/COPEY_BANNER.png"
 import Header from "./components/Header.vue";
 export default {
   name: "SquadronRarePage",
@@ -39,6 +40,7 @@ export default {
     const discordLink = ref("https://discord.gg/Ezw7ybbH");
 
     return {
+      bannerImg,
       discordLink,
     };
   },
