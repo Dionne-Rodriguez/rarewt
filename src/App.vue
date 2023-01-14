@@ -5,7 +5,7 @@
       <div class="container" style="height: 2000px">
         <div class="container">
           <img
-            :src="imgUrl"
+            :src="bannerImg"
             class="img-fluid pt-3"
             style="width: inherit"
             alt="banner"
