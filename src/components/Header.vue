@@ -1,6 +1,6 @@
 <script>
 import { defineComponent } from "@vue/runtime-core"
-import icon from "../assets/rare-icon.png"
+import icon from "../assets/vue.svg"
 export default  defineComponent({
 name:"Header",
 setup() {
