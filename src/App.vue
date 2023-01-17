@@ -17,13 +17,6 @@
             We are a competitive squadron battle focused group of players in the
             game of War Thunder.
           </p>
-          <iframe
-            src="https://player.twitch.tv/?underpents&parent=rarewt.com"
-            height="500"
-            width="500"
-            allowfullscreen
-          >
-          </iframe>
           <h2 class="pt-5">Contact Us</h2>
           <p class="pt-2">
             If you would like to join Squadron RARE or have any questions, you
