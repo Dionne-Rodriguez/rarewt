@@ -31,7 +31,7 @@
 
 <script>
 import { ref } from "vue";
-import bannerImg from "./assets/vue.svg"
+import bannerImg from "./assets/COPEY_BANNER.svg"
 import Header from "./components/Header.vue";
 export default {
   name: "SquadronRarePage",
