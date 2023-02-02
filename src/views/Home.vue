@@ -1,7 +1,7 @@
 <script>
 import bannerImg from "../assets/COPEY_BANNER.svg"
 export default {
-    name: "Home",
+
     setup() {
         return {
             bannerImg
