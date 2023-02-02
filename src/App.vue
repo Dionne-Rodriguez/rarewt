@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark">
+  <div class="bg-dark mh-100" style="height: 2500px">
     <div class="container">
       <Header />
       <RouterView />
