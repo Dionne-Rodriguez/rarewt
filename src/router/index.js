@@ -1,36 +1,31 @@
 import { createWebHistory, createRouter } from "vue-router"
-import Home from "../views/Home.vue"
-import LiveStreams from "../views/LiveStreams.vue"
-import About from "../views/About.vue"
-import Players from "../views/Players.vue"
-import News from "../views/News.vue"
 const router = createRouter({
     // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
     history: createWebHistory(),
     routes: [{
         path: "/",
         name: "Home",
-        component: Home
+        component: () => import("../views/Home.vue")
     },
     {
         path: "/livestreams",
         name: "LiveStreams",
-        component: LiveStreams
+        component: () => import("../views/LiveStreams.vue")
     },
     {
         path: "/about",
         name: "About",
-        component: About
+        component: () => import("../views/About.vue")
     },
     {
         path: "/players",
         name: "Players",
-        component: Players
+        component: () => import("../views/Players.vue")
     },
     {
         path: "/news",
         name: "News",
-        component: News
+        component: () => import("../views/News.vue")
     }
     ]
 })

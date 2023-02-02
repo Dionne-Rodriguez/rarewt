@@ -1,13 +1,13 @@
 <script>
 import bannerImg from "../assets/COPEY_BANNER.svg"
-export default defineComponent({
+export default {
     name: "Home",
     setup() {
         return {
             bannerImg
         }
     }
-})
+}
 </script>
 
 <template>
