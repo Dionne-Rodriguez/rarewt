@@ -9,7 +9,7 @@ const router = createRouter({
     {
         path: "/livestreams",
         name: "LiveStreams",
-        component: () => import("../views/LiveStreams.vue")
+        component: () => import("../views/Livestreams.vue")
     },
     {
         path: "/about",
