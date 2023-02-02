@@ -1,7 +1,19 @@
+<script>
+import bannerImg from "../assets/COPEY_BANNER.svg"
+export default defineComponent({
+    name: "Home",
+    setup() {
+        return {
+            bannerImg
+        }
+    }
+})
+</script>
+
 <template>
     <div class="container">
         <div class="container">
-            <img src="./assets/COPEY_BANNER.svg" class="img-fluid pt-3" style="width: inherit" alt="banner" />
+            <img :src=bannerImg class="img-fluid pt-3" style="width: inherit" alt="banner" />
         </div>
         <div class="container">
             <h1 class="pt-5">Welcome to RARE</h1>
@@ -21,9 +33,7 @@
     </div>
 </template>
 
-<script setup>
 
-</script>
 
 <style>
 
